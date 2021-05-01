@@ -1,0 +1,37 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #13a4a4;
+}
+
+.main-nav__item{
+    display: inline-block;
+}
+
+/* Ser especifico a cual elemento  quiero  aplicar el diseño, en este caso al elemento ancla del main-nav__item a */
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: red;
+}
+
+/*Pseudo Classes*/
+/* Cuando este por encima del elemento has lo suguiente */
+.main-nav__item a:hover{
+    color: royalblue;
+}
+
+/*Pseudo Classes*/
+/* Cuando el elemento este activo (presionado) has lo siguiente */
+.main-nav__item a:active{
+    color: salmon;
+}
+
+/*Pseudo Elemento*/
+/* Despues del elemento main-nav__item y del elemento ancla a, despues de estos pon el siguiente conetnido*/
+.main-nav__item a::after{
+    content: " | ";
+}
