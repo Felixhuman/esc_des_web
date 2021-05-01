@@ -15,7 +15,6 @@
     padding: 5px;
     border-radius: 2px;
     text-decoration: none;
-    background-color: red;
 }
 
 /*Pseudo Classes*/
@@ -35,3 +34,4 @@
 .main-nav__item a::after{
     content: " | ";
 }
+
