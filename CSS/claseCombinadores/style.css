@@ -1,0 +1,23 @@
+/* Adjacent sibling */
+/* a todas las etiquetas p que esten cercas de un h2, aplica este estilo */
+.adjacent h2 + p{
+    color: red;
+}
+
+/* General sibling */
+/* A todas las etiquetas parrafo que tengan como hermano general un h2, aplica el estilo */
+.general h2 ~ p {
+    color: royalblue;
+}
+
+/* Child */
+/* A toda etiqueta parrafo que sea hija directa de una etiqueta div, aplica el estilo */
+.child div > p{
+    color: purple;
+}
+
+/* Descendant */
+/* A toda etiqueta parrafo que este dentro de un contenedor, aplica el estilo */
+div p{
+    color: saddlebrown;
+}
