@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+html{
+    font-size: 62.5%;
+}
+.header{
+    background-color: whitesmoke;
+    width: 100%;
+    display: inline-block;
+    width: 100%;
+}
+
+.nav-list{
+    width: 800px;
+    position: absolute;
+    text-align: right;
+    right: 0;
+    top: 0;
+}
+.nav-list .elemento{
+    display: inline-block;
+    margin: 0 20px;
+}
