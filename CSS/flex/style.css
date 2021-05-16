@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+.encabezado{
+    font-size: 4rem;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: tomato;
+    color: white;
+}
+.box p{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.subtitulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: rgb(245, 114, 0);
+    
+    color: white;
+}
+.titulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: darkorange;
+    color: white;
+}
+.container{
+    border: .3rem solid black;
+    display: flex;
+    justify-content: center;
+    
+}
+.container1{
+    border: .3rem solid black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container2{
+    border: .3rem solid black;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.container3{
+    border: .3rem solid black;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.container4{
+    height: 20vh;
+    border: .3rem solid black;
+    background-color: rgba(128, 128, 128, 0.637);
+    display: flex;
+    align-items: flex-start;
+}
+.container5{
+    height: 20vh;
+    border: .3rem solid black;
+    background-color: rgba(128, 128, 128, 0.637);
+    display: flex;
+    align-items: center;
+}
+.container6{
+    height: 20vh;
+    border: .3rem solid black;
+    background-color: rgba(128, 128, 128, 0.637);
+    display: flex;
+    align-items: flex-end;
+}
+.container7{
+    height: 20vh;
+    border: .3rem solid black;
+    background-color: rgba(128, 128, 128, 0.637);
+    display: flex;
+    align-items: stretch;
+}
+.container8{
+    height: 20vh;
+    border: .3rem solid black;
+    background-color: ssrgba(128, 128, 128, 0.637);
+    display: flex;
+    align-items: baseline;
+}
+.container9{
+    height: 20vh;
+    border: .3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container10{
+    border: .3rem solid black;
+    display: flex;
+}
+.container11{
+    border: .3rem solid black;
+    display: flex;
+    flex-grow: inherit;
+    
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.boxstretch{
+    width: 10rem;
+    font-family: Arial, Helvetica, sans-serif
+}
+.box-baseline{
+    width: 10rem;
+    font-family: Arial, Helvetica, sans-serif
+}
+.box-flex-wrap{
+    width: 45rem;
+    font-family: Arial, Helvetica, sans-serif
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: blueviolet;
+}
+.box3{
+    background-color: burlywood;
+}
+.box4{
+    background-color: cadetblue;
+}
+.box5{
+    background-color: coral;
+}
+.box6{
+    background-color: salmon;
+}
+.box-ord1{
+    background-color: blue;
+    order: 6;
+}
+.box-ord2{
+    background-color: blueviolet;
+    order: 4;
+}
+.box-ord3{
+    background-color: burlywood;
+    order: 5;
+}
+.box-ord4{
+    background-color: cadetblue;
+    order: 1;
+}
+.box-ord5{
+    background-color: coral;
+}
+.box-ord6{
+    background-color: salmon;
+}
+.box-grow1{
+    flex-grow: 1;
+    height: 10rem;
+    font-family: Arial, Helvetica, sans-serif
+}
+.box-grow2{
+    flex-grow: 2;
+    height: 10rem;
+    font-family: Arial, Helvetica, sans-serif
+}
+.box-grow{
+    width: 10rem;
+    height: 10rem;
+    font-family: Arial, Helvetica, sans-serif
+}
